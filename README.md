@@ -18,6 +18,19 @@ Used MySQL to retrieve data from database to be used in the interface.
 ![Image](https://github.com/user-attachments/assets/db9dab9c-e62b-42db-9ee2-3a0a876c1a7a)
 ### Allocate Project Leader:
 ![Image](https://github.com/user-attachments/assets/f013e0ce-0644-4e8e-b40e-0d4cf6e04ed4)
-### Search Tasks:
+### Search and Filter Tasks:
 ![Image](https://github.com/user-attachments/assets/5e1ad70f-a78f-482b-a600-0dd52b272f8b)
+### View Task Details:
+![Image](https://github.com/user-attachments/assets/90e574f6-635b-455b-9afa-f28c3bcbe4f1)
+![Image](https://github.com/user-attachments/assets/6e5cf51e-2560-466f-a7f2-1638c3cdebfd)
+
+## Team Member Pages
+### View new assigned tasks:
+![Image](https://github.com/user-attachments/assets/9d6a9e2e-4de8-4c8f-859e-c238d8b9a23c)
+### View the new task details:
+![Image](https://github.com/user-attachments/assets/d4c8e6ff-0f82-443e-9da7-dfb5b9df1d5a)
+### Accept Task:
+![Image](https://github.com/user-attachments/assets/f8dd52e3-15cf-4757-b28f-503fd870a5ba)
+### Reject Task:
+![Image](https://github.com/user-attachments/assets/4f03ad47-4e45-46b5-a84f-0d1df9d2fa13)
 
