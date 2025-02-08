@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    "header header"
+    "nav main"
+    "footer footer";
+}
+
+.header {
+  grid-area: header;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.nav {
+  grid-area: nav;
+  background-color: #4caf50;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.nav a:hover {
+  background-color: #45a049;
+}
+
+.main {
+  grid-area: main;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+h1 {
+  color: #4caf50;
+}
+
+.search-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-form label {
+  margin-right: 5px;
+}
+
+.search-form input,
+.search-form select,
+.search-form button {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.task-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.task-table th,
+.task-table td {
+  text-align: left;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.task-table th {
+  background-color: #f4f4f4;
+}
+
+.task-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.priority-low {
+  background-color: green;
+  color: white;
+}
+
+.priority-medium {
+  background-color: yellow;
+  color: black;
+}
+
+.priority-high {
+  background-color: red;
+  color: white;
+}
+
+.status-pending {
+  font-style: italic;
+  background-color: gray;
+  color: white;
+}
+
+.status-in-progress {
+  font-weight: bold;
+  background-color: lightblue;
+}
+
+.status-completed {
+  text-decoration: line-through;
+  border: 2px solid green;
+}
+
+#newTask {
+  background-color: #c7ff1e;
+}
