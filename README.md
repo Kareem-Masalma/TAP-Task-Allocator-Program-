@@ -3,6 +3,19 @@
 TAP is a task management Web Application that facilitates efficient task allocation and monitoring for small teams.  
 Utilized HTML and CSS for frontend and PHP for backend.  
 Used MySQL to retrieve data from database to be used in the interface.  
+**Type of Users in The System:**
+- Manager:
+  * Add new project
+  * Allocate Project Leader
+- Project Leader:
+  * Add new Task for a Project
+  * Assign members for the task
+- Team Member:
+  * Accept or Reject new Tasks
+  * Update the Progress of a Task
+- All loged in users can:
+  * Search and Filter tasks
+  * View Task details
 
 ## Login Page
 ![Image](https://github.com/user-attachments/assets/def253e3-075f-4e22-aff4-bbf99b923674)
